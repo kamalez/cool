@@ -39,8 +39,9 @@ ul >li:last-child{
 
 .arrow{
 	background-color:black;
-	height:2px;
-	
+	height:5px;
+    margin-top:10px;
+	border-radius:10px;	
 }
 
 li:hover .arrow{
