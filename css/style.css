@@ -1,26 +1,28 @@
 body{
 	background:white url("../images/wall1.JPG") no-repeat center;
 	background-size:cover;
-	opacity:0.85;
-	background-opacity:0.5;
+    opacity:0.9;
+	
 }
 
 ul{
 	background-color:black;
 	color:white;
-	width:100%;
-	padding:15px;
-	margin-top:-10px;
+	width:101%;
+	padding:5px;
+	margin-top:-8px;
 	margin-left:-10px;
 	border:0;
+	
 }
 
 .top-icon{
-	margin:auto auto;
+	margin-top:5px;
 	font-weight:bolder;
 	font-size:40px;
 	width:30%;
 	display:inline-block;
+
 }
 
 li{
@@ -28,13 +30,15 @@ li{
 	width:8%;
 	text-align:center;
 	color:white;
-	font-size:20px;
+	font-size:22px;
+	padding:10px;
+	
 }
 
 ul >li:last-child{
 	background-color:white;
 	color:black;
-	border-radius:10px;
+	border-radius:30px;
 }
 
 .arrow{
@@ -42,8 +46,33 @@ ul >li:last-child{
 	height:5px;
     margin-top:10px;
 	border-radius:10px;	
+	transition: all ease 1s;
 }
 
 li:hover .arrow{
     background-color:white;
+}
+
+.bottle{
+	
+	width:0%;
+	height:100%;
+	background:transparent url("../images/robo.JPG") no-repeat center;
+	transition:all ease 3s;
+}
+
+.check{
+	width:100%;
+	height:100%;
+	background-color:transparent;
+}
+
+.check:hover .bottle{
+	width:100%;
+}
+
+
+a{
+	color:white;
+    text-decoration:none;
 }

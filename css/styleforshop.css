@@ -1,0 +1,105 @@
+body{
+	background:white url("../images/banner-bg.JPG") no-repeat center;
+	background-size:cover;
+    opacity:0.9;
+	
+}
+
+ul{
+	background-color:black;
+	color:white;
+	width:101%;
+	padding:5px;
+	margin-top:-8px;
+	margin-left:-10px;
+	border:0;
+	
+}
+
+.top-icon{
+	margin-top:5px;
+	font-weight:bolder;
+	font-size:40px;
+	width:30%;
+	display:inline-block;
+
+}
+
+li{
+	display:inline-block;
+	width:8%;
+	text-align:center;
+	color:white;
+	font-size:22px;
+	padding:10px;
+	
+}
+
+ul >li:last-child{
+	background-color:white;
+	color:black;
+	border-radius:30px;
+}
+
+.arrow{
+	background-color:black;
+	height:5px;
+    margin-top:10px;
+	border-radius:10px;	
+	transition: all ease 1s;
+}
+
+li:hover .arrow{
+    background-color:white;
+}
+
+
+
+a{
+	color:white;
+    text-decoration:none;
+}
+
+.view-3{
+    width:80%;
+    height:300px;
+    margin-top:6%;
+    background-color:transparent;
+    margin-left:10%;
+    border-radius:3px;
+}
+
+.bottle{
+    width:28%;
+    height:90%;
+    float:left;
+    margin-left:3%;
+    margin-top:2%;
+    border-radius:10px;
+    border:2px solid grey;
+}
+.view-3-text{
+    width:80%;
+    height:50px;
+    background-color:transparent;
+    margin-left:10%;
+    border-radius:3px;
+}
+
+.u-text{
+    width:27%;
+    height:50%;
+    margin-left:3%;
+    float:left;
+    text-align:center;
+    color:black;
+    font-size:20px;
+    
+}
+
+p{
+    background-color:white;
+    border-radius:10px;
+    padding:5px;
+    border:2px solid silver;
+}
