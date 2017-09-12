@@ -1,5 +1,5 @@
 body{
-	background:white url("../images/banner-bg.JPG") no-repeat center;
+	background:white url("../images/banner-bg2.JPG") no-repeat center;
 	background-size:cover;
     opacity:0.9;
 	
@@ -58,4 +58,14 @@ li:hover .arrow{
 a{
 	color:white;
     text-decoration:none;
+}
+
+
+.profile{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	background-color:black;
+	margin-top:3%;
+	margin-left:5%;
 }
